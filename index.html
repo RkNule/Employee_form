@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Create Form Example</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="http://login2explore.com/jpdb/resources/js/0.0.3/jpdb-commons.js"></script>
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Employee Form</h2>
+        <form id="empForm">
+            <div class="form-group">
+                <label for="empId">Employee ID:</label>
+                <input type="text" class="form-control" id="empId" placeholder="Enter Employee ID">
+            </div>
+            <div class="form-group">
+                <label for="empName">Employee Name:</label>
+                <input type="text" class="form-control" id="empName" placeholder="Enter Employee Name">
+            </div>
+            <div class="form-group">
+                <label for="empEmail">Employee Email:</label>
+                <input type="email" class="form-control" id="empEmail" placeholder="Enter Employee Email">
+            </div>
+            <button type="button" class="btn btn-primary" id="save">Save</button>
+            <button type="button" class="btn btn-warning" id="change">Change</button>
+            <button type="reset" class="btn btn-default" id="reset">Reset</button>
+        </form>
+    </div>
+</body>
+</html>
